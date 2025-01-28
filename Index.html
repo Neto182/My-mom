@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenagem Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela 1 - Formulário -->
+        <div id="formScreen">
+            <h1>Digite o nome da melhor mãe do mundo</h1>
+            <input type="text" id="nomeMae" placeholder="Escreva aqui...">
+            <div class="mensagem-erro"></div>
+            <button onclick="verificarNome()">Enviar</button>
+        </div>
+
+        <!-- Tela 2 - Homenagem -->
+        <div id="homenagemScreen" class="hidden">
+            <div class="moldura">
+                <h2>Para <span class="nome-mae">Andreia</span></h2>
+                <div class="texto-homenagem">
+                    <p>Oi mãe,</p>
+                    <p>Queria dizer que te amo muito mesmo. Tudo que eu faço é pensando em lhe dar orgulho um dia. Me perdoa pelos meus erros, a senhora me criou com tanto amor e me deu tudo.</p>
+                    <p>Os meus erros são resultado do quanto apanhei da vida e sofri calado. Mas quero lhe dizer que estou de volta ao caminho de Deus e quero me reconectar com o espírito Dele.</p>
+                    <p>Vou lutar com todas as minhas forças para me manter firme e correto perante Deus e perante aos seus olhos, minha mãe.</p>
+                    <p>Te amo!</p>
+                </div>
+                <div class="coracao">❤</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
